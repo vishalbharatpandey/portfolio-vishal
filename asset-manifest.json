@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-vishal/home/static/css/main.a83da2dd.css",
-    "main.js": "/portfolio-vishal/home/static/js/main.762e99d7.js",
-    "static/js/787.fa9c9563.chunk.js": "/portfolio-vishal/home/static/js/787.fa9c9563.chunk.js",
-    "static/media/myImage.jpg": "/portfolio-vishal/home/static/media/myImage.00d82263168560dc629c.jpg",
-    "static/media/ReactLogo.jpeg": "/portfolio-vishal/home/static/media/ReactLogo.c4b95a20280387a10ff1.jpeg",
-    "index.html": "/portfolio-vishal/home/index.html",
-    "main.a83da2dd.css.map": "/portfolio-vishal/home/static/css/main.a83da2dd.css.map",
-    "main.762e99d7.js.map": "/portfolio-vishal/home/static/js/main.762e99d7.js.map",
-    "787.fa9c9563.chunk.js.map": "/portfolio-vishal/home/static/js/787.fa9c9563.chunk.js.map"
+    "main.css": "/static/css/main.a83da2dd.css",
+    "main.js": "/static/js/main.ca84da4b.js",
+    "static/js/787.fa9c9563.chunk.js": "/static/js/787.fa9c9563.chunk.js",
+    "static/media/myImage.jpg": "/static/media/myImage.00d82263168560dc629c.jpg",
+    "static/media/ReactLogo.jpeg": "/static/media/ReactLogo.c4b95a20280387a10ff1.jpeg",
+    "index.html": "/index.html",
+    "main.a83da2dd.css.map": "/static/css/main.a83da2dd.css.map",
+    "main.ca84da4b.js.map": "/static/js/main.ca84da4b.js.map",
+    "787.fa9c9563.chunk.js.map": "/static/js/787.fa9c9563.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a83da2dd.css",
-    "static/js/main.762e99d7.js"
+    "static/js/main.ca84da4b.js"
   ]
 }
