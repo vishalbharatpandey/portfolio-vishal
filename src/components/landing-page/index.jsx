@@ -28,7 +28,7 @@ const LandingPage = () => {
                 {windowWidth > 700 &&
                     <div className='menuItems'>
                         <div>
-                            <span><Link to="/home">{LandingPageMenu.HOME}</Link></span>
+                            <span><Link to="/">{LandingPageMenu.HOME}</Link></span>
                             <span><Link to="/about">{LandingPageMenu.ABOUT}</Link></span>
                         </div>
                         <div>
@@ -51,7 +51,7 @@ const LandingPage = () => {
                             allowScrollButtonsMobile
                             aria-label="scrollable force tabs example"
                         >
-                            <Tab onClick={()=>navigate("/home")} label={LandingPageMenu.HOME} />
+                            <Tab onClick={()=>navigate("/")} label={LandingPageMenu.HOME} />
                             <Tab onClick={()=> navigate("/about")} label={LandingPageMenu.ABOUT} />
                             <Tab onClick={()=>navigate("/education")} label={LandingPageMenu.EDUCATION} />
                             <Tab onClick={()=>navigate('/skills')} label={LandingPageMenu.SKILLS} />
@@ -64,7 +64,8 @@ const LandingPage = () => {
             <div className='mainContentContainer'>
 
                 <Routes>
-                    <Route path='/home' element={<MainContent />} />
+                    <Route path='/' element={<MainContent />} />
+                    <Route path='/portfolio-vishal/' element={<MainContent />} />
                     <Route path='/education' element={<Education />} />
                     <Route path='/skills' element={<Skills />} />
                     <Route path='/projects' element={<Projects />} />
