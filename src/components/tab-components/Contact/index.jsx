@@ -6,13 +6,14 @@ import Twitter  from '@mui/icons-material/Twitter';
 import LinkedIn from '@mui/icons-material/LinkedIn';
 import Facebook from '@mui/icons-material/Facebook';
 import Instagram from '@mui/icons-material/Instagram';
+import { GitHub } from '@mui/icons-material';
 
 const Contact = () => {
     return (
         <div className='contacts'>
 
             <div class="container">
-                <h2>Contact Me</h2>
+                <h2>Contact me</h2>
 
                 <div class="contact-method">
                     <span><PhoneIcon /></span>
@@ -42,6 +43,10 @@ const Contact = () => {
                 <div class="contact-method">
                     <span><Instagram /></span>
                     <a target="_blank" href="https://instagram.com/vishal_bharat_pandey?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a>
+                </div>
+                <div class="contact-method">
+                    <span><GitHub /></span>
+                    <a target="_blank" href="https://github.com/vishalbharatpandey">Github</a>
                 </div>
             </div>
         </div>

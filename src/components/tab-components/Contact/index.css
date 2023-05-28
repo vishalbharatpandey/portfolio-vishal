@@ -32,7 +32,7 @@
 .contact-method {
     display: flex;
     align-items: center;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 .contact-method span {
@@ -45,14 +45,17 @@
 .contact-method a {
     color: #333;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 650px){
+    .container{
+        height: 48vh;
+    }
     .contact-method a{
-        font-size: 10px;
+        font-size: 12px;
     }
     .contact-method span{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
