@@ -64,13 +64,13 @@ const LandingPage = () => {
             <div className='mainContentContainer'>
 
                 <Routes>
+                    <Route exact path='/portfolio-vishal/' element={<MainContent />} />
+                    <Route exact path='/education' element={<Education />} />
+                    <Route exact path='/skills' element={<Skills />} />
+                    <Route exact path='/projects' element={<Projects />} />
+                    <Route exact path='/about' element={<About />} />
+                    <Route exact path='/contact' element={<Contact />} />
                     <Route path='/' element={<MainContent />} />
-                    <Route path='/portfolio-vishal/' element={<MainContent />} />
-                    <Route path='/education' element={<Education />} />
-                    <Route path='/skills' element={<Skills />} />
-                    <Route path='/projects' element={<Projects />} />
-                    <Route path='/about' element={<About />} />
-                    <Route path='/contact' element={<Contact />} />
                 </Routes>
 
             </div>
