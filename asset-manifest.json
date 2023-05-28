@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-vishal/static/css/main.a83da2dd.css",
-    "main.js": "/portfolio-vishal/static/js/main.dea7ff39.js",
+    "main.css": "/portfolio-vishal/static/css/main.dcdf90cd.css",
+    "main.js": "/portfolio-vishal/static/js/main.2c4b3d70.js",
     "static/js/787.fa9c9563.chunk.js": "/portfolio-vishal/static/js/787.fa9c9563.chunk.js",
     "static/media/myImage.jpg": "/portfolio-vishal/static/media/myImage.00d82263168560dc629c.jpg",
     "static/media/ReactLogo.jpeg": "/portfolio-vishal/static/media/ReactLogo.c4b95a20280387a10ff1.jpeg",
     "index.html": "/portfolio-vishal/index.html",
-    "main.a83da2dd.css.map": "/portfolio-vishal/static/css/main.a83da2dd.css.map",
-    "main.dea7ff39.js.map": "/portfolio-vishal/static/js/main.dea7ff39.js.map",
+    "main.dcdf90cd.css.map": "/portfolio-vishal/static/css/main.dcdf90cd.css.map",
+    "main.2c4b3d70.js.map": "/portfolio-vishal/static/js/main.2c4b3d70.js.map",
     "787.fa9c9563.chunk.js.map": "/portfolio-vishal/static/js/787.fa9c9563.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a83da2dd.css",
-    "static/js/main.dea7ff39.js"
+    "static/css/main.dcdf90cd.css",
+    "static/js/main.2c4b3d70.js"
   ]
 }
