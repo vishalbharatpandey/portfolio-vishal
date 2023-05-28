@@ -28,7 +28,7 @@ const LandingPage = () => {
                 {windowWidth > 700 &&
                     <div className='menuItems'>
                         <div>
-                            <span><Link to="/portfolio-vishal/">{LandingPageMenu.HOME}</Link></span>
+                            <span><Link to="/">{LandingPageMenu.HOME}</Link></span>
                             <span><Link to="/about">{LandingPageMenu.ABOUT}</Link></span>
                         </div>
                         <div>
@@ -51,7 +51,7 @@ const LandingPage = () => {
                             allowScrollButtonsMobile
                             aria-label="scrollable force tabs example"
                         >
-                            <Tab onClick={()=>navigate("/portfolio-vishal/")} label={LandingPageMenu.HOME} />
+                            <Tab onClick={()=>navigate("/")} label={LandingPageMenu.HOME} />
                             <Tab onClick={()=> navigate("/about")} label={LandingPageMenu.ABOUT} />
                             <Tab onClick={()=>navigate("/education")} label={LandingPageMenu.EDUCATION} />
                             <Tab onClick={()=>navigate('/skills')} label={LandingPageMenu.SKILLS} />
@@ -64,12 +64,12 @@ const LandingPage = () => {
             <div className='mainContentContainer'>
 
                 <Routes>
-                    <Route exact path='/portfolio-vishal/' element={<MainContent />} />
-                    <Route exact path='/education' element={<Education />} />
-                    <Route exact path='/skills' element={<Skills />} />
-                    <Route exact path='/projects' element={<Projects />} />
-                    <Route exact path='/about' element={<About />} />
-                    <Route exact path='/contact' element={<Contact />} />
+                    <Route path='/portfolio-vishal/' element={<MainContent />} />
+                    <Route path='/education' element={<Education />} />
+                    <Route path='/skills' element={<Skills />} />
+                    <Route path='/projects' element={<Projects />} />
+                    <Route path='/about' element={<About />} />
+                    <Route path='/contact' element={<Contact />} />
                     <Route path='/' element={<MainContent />} />
                 </Routes>
 
