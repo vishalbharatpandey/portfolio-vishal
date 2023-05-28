@@ -1,0 +1,36 @@
+.educationTable{
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow-x: auto;
+    box-shadow: 5px 5px 10px lightgray, -5px -5px 10px lightgray;
+}
+table,tr{
+    border: 1px solid grey;
+}
+th,td{
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px){
+    .educationTable{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 500px){
+    .educationTable{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 900px){
+    .educationTable{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

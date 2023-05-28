@@ -1,0 +1,26 @@
+.about h2{
+    margin-top: 40px;
+}
+.about p{
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: justify;
+    text-justify:inter-word;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: sans-serif;
+    color: grey;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px lightgray, -3px -3px 5px lightgray;
+}
+@media screen and (max-width: 750px){
+    .about p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 500px){
+    .about p{
+        font-size: 6px;
+    }
+}

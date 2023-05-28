@@ -1,0 +1,21 @@
+.projects ul li p{
+    font-size: 12px;
+}
+.projects ul li p i{
+    font-weight: 500;
+}
+@media screen and (max-width: 800px){
+    .projects ul li p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .projects ul li p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 400px){
+    .projects ul li p{
+        font-size: 6px;
+    }
+}

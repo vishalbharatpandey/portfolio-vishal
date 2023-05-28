@@ -1,0 +1,69 @@
+.myBioContainer{
+    text-align: left;
+}
+.header1{
+    font-size: 10px;
+    font-weight: 500;
+}
+.header2{
+    font-size: 16px;
+    font-weight: 800;
+}
+.header3{
+    font-size: 12px;
+    font-weight: 600;
+}
+.shieftIcons{
+    margin-bottom: -6px;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.socialProfiles{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35%;
+}
+@media screen and (max-width: 900px){
+    .myBioContainer div{
+        font-size: 11px;
+    }
+    .bioDetail{
+        font-size: 9px;
+    }
+    .socialProfiles a{
+        font-size: 8px;
+    }
+    .shieftIcons{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .header1{
+        font-size: 8px;
+    }
+    .header2{
+        font-size: 14px;
+    }
+    .header1{
+        font-size: 10px;
+    }
+    .myBioContainer div{
+        font-size: 8px;
+    }
+    .bioDetail{
+        font-size: 8px;
+    }
+    .socialProfiles a{
+        font-size: 7px;
+    }
+    .shieftIcons{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width : 450px){
+    .myBioContainer div{
+        font-size: 6px;
+    }
+}
